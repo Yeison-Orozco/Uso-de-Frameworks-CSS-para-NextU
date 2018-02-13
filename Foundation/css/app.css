@@ -1,0 +1,23 @@
+.fondo {
+    position: fixed;
+    z-index: -100;
+    width: 100%;
+    height: 100vh;
+    /*Photo by Ali Inay on Unsplash*/
+    background-image: url('../img/ali-inay-9858.jpg');
+    background-size: cover;
+    filter: blur(3px);
+}
+
+.grid-container {
+    background-color: rgb(230, 230, 230);
+}
+
+.receta {
+    background-color: rgb(204, 194, 175);
+    padding: 0.5rem;
+}
+
+.margen-izq {
+    margin-left: 0.5rem;
+}

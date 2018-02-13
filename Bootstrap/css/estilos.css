@@ -1,0 +1,85 @@
+/*
+    Hoja de estilos personalizada para bootstrap
+    creada y mantenida por Yeison Orozco para Next U
+
+    *Desarrollador Web de Next U
+*/
+
+/*color para el fondo*/
+body {
+    background-color: #e1e1e1;
+}
+
+/*color para el contenedor principal*/
+.container {
+    background-color: white;
+}
+
+/*ajustes para el jumbotron*/
+.jumbotron {
+    background-color: white;
+    margin-bottom: 0;
+}
+
+/*espaciado en top de cualquier elemento*/
+.espacio-arriba {
+    margin-top: 20px;
+}
+
+/*tamanio de la imagen responsive*/
+.img-logo {
+    width: 50%;
+}
+
+/*ajustes para la seccion de top 10*/
+.list-group-item:hover {
+    cursor: pointer;
+}
+
+/*tamanio maximo para la figure de las notas*/
+.img-nota {
+    width: 400px;
+}
+
+/*tamanio de los iconos de las redes sociales tipo svg*/
+.img-redes {
+    width: 50px;
+}
+
+/*ajustes adicionales para las figure*/
+.margen-izq-aba {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.margen-der-aba {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/*cambios para el cursor en la barra de navegacion*/
+.nav-link:hover {
+    color: white !important;
+    background-color: #007bff;
+    border-radius: .25rem;
+}
+
+/*ajuste para la ubicacion de la seccion de redes*/
+.menu-personalizado {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+@media (max-width: 576px) {
+    .menu-personalizado {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .menu-personalizado li {
+        margin: auto;
+    }
+}
